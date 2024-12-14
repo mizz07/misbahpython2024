@@ -1,0 +1,5 @@
+#appending data to a file
+with open("/content/misbah.txt","a")as file:
+  file.write("python is easy to learn.\n")
+  with open("/content/misbah.txt","r")as file:
+    print(file.read())
