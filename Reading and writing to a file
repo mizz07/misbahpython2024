@@ -1,0 +1,6 @@
+#reading and writing to a file
+with open("/content/misbah.txt","w")as file:
+  file.write("python is awesome!\n")
+
+  with open("/content/misbah.txt","r")as file:
+    print(file.read())
